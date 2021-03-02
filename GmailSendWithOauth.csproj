@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="google.apis.gmail.v1" Version="1.50.0.2235" />
+    <PackageReference Include="mimekit" Version="2.10.1" />
+  </ItemGroup>
+
+</Project>
